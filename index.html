@@ -5,23 +5,38 @@
     <link rel="stylesheet" href="style.css"></link>
   </head>
   <body>
-    <div class="wrapper">
-      <i style="--clr: #00ff0a;"></i>
-      <i style="--clr: #ff0057;"></i>
-      <i style="--clr: #fffd44;"></i>
-      <div class="login">
-        <h2>Login</h2>
-        <input  type="text" placeholder="Username">
-        <input  type="password" placeholder="password">
-        <input  type="submit" value="Sign in">
-        <div class="links">
-          <a href="#">Forget password</a>
-          <a href="#">Sign up</a>
-        </div>
-      </div>
+    <div class="button-container">
+          <button class="button" onclick="toggleTheme()">><</button>
+    </div>  
+    <div class="whole-body">
+        <div class="wrapper">
+              <i style="--clr: #00ff0a;"></i>
+              <i style="--clr: #ff0057;"></i>
+              <i style="--clr: #fffd44;"></i>
+              <div class="login">
+                <h2>Login</h2>
+                <input  type="text" placeholder="Username">
+                <input  type="password" placeholder="password">
+                <input  type="submit" value="Sign in">
+                <div class="links">
+                  <a href="#">Forget password?</a>
+                  <a href="#">Sign up</a>
+                </div>
+              </div>
+          </div>
+            <footer>
+              <p>Designed by <a href="https://www.instagram.com/___zelalem" target="_blank">Zelalem Mulugeta</a> </p>
+            </footer>
     </div>
-    <footer>
-      <p>Designed by <a class="footer-ig-link" href="https://www.instagram.com/___zelalem" target="_blank">Zelalem Mulugeta</a> </p>
-    </footer>
+    
+
+   
+
+
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
   </body>
 </html>

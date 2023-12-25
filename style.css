@@ -1,11 +1,30 @@
+/*  
+
+
+ZELALEM MULUGETA
+
+
+*/
+
+
 body {
   height: 100v;
   margin: 0;
   display: grid;
-  place-items: center;
+  
   background: #111;
   font-size: 1.3rem;
   }
+
+
+  .whole-body {
+    place-items: center;
+    height: 100v;
+    margin: 0;
+    display: grid;
+   font-size: 1.3rem;
+  }
+
 
  h2, input, a {
   color: #fff;
@@ -14,7 +33,7 @@ body {
 
  .wrapper {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   position: relative;
   width: 550px;
   height: 550px;
@@ -127,15 +146,43 @@ input::placeholder {
 
 a {
   text-decoration: none;
-  
 }
 
 
 p{
   font-size: 1.2rem;
-  color: rgb(54, 52, 52);
+  color: rgb(20, 1, 16);
 }
 
-.footer-ig-link {
- color: rgb(128, 123, 123);
+.button-container {
+  text-align: right;
+  margin-bottom: 20px;
+  align-items: right;
+  justify-content: right;
+}
+
+.button {
+  margin-top: 7px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body {
+  background-color:rgb(99, 99, 224);
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: white;
+  p {
+    color: #ff357a;
+    
+  }
+  
 }
